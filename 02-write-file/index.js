@@ -1,4 +1,4 @@
-let path = require('path');
+const path = require('path');
 const fs = require('fs');
 const { stdin, stdout } = process;
 const output = fs.createWriteStream(path.join(__dirname, 'destination.txt'));
